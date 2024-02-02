@@ -1,0 +1,18 @@
+DB Brainstorming:
+
+Features
+users can sign into the app with their email and password
+users can create recipes with ingredients and instructions
+recipes can be marked as public or private
+users can view other people’s recipes
+ingredients from recipes can be added to user’s grocery lists
+users can create their own occasions and assign recipes to occasions
+User accounts table - user id is primary key
+
+Recipe table with user as foreign key - with public or private column - many to many?
+
+Public recipe table - association table? Many to many?
+
+Grocery list is one to many with user id as foreign key  and association to ingredients one to many
+
+Occasion user as foreign key and association to recipes one to many 
